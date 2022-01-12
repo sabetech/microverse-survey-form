@@ -56,5 +56,11 @@ select {
   margin-bottom: 20px;
 }
 
-.form-control {
-}
+.radios {
+    float: left;
+    margin-top: 30px;
+  }
+  input[type="radio"] {
+    height: 2em;
+    width: 10%;
+  }
