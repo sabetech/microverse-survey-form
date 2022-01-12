@@ -65,9 +65,26 @@ input[type="radio"] {
   width: 10%;
 }
 
+input[type="checkbox"] {
+    height: 2em;
+    width: 10%;
+  }
+  
+
 textarea {
   display: block;
   width: 100%;
   margin-bottom: 20px;
   height: 10%;
 }
+
+button {
+    width: 100%;
+    background-color: darkturquoise;
+    display: block;
+    font-size: 24px;
+    border-radius: 5px;
+    color: white;
+    height: max-content;
+    padding: 10px;
+  }
