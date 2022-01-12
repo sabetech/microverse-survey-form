@@ -12,6 +12,39 @@
                 freeCodeCamp Survey Form
             </h1>
             <p class="subtitle" id="description">Thank you for taking the time to help us improve the platform</p>
+
+            <div class="panel">
+                <form id="survey-form" >
+                    <div class="form-control">
+                        <label id="name-label">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <div class="form-control">
+                        <label id="email-label">Email</label>
+                        <input type="email" id="email" placeholder="Enter your Email" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label id="number-label">Age </label><sub>(optional)</sub>
+                        <input type="number" id="number" placeholder="Age" min=10 max=50>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Which option best describes your current role?</label>
+                        <select id="dropdown">
+                            <option>Select Your Current Role</option>
+                            <option>Full Time</option>
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Student</option>
+                            <option>Prefer not to say</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </body>
 </html>
