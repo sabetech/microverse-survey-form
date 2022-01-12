@@ -1,0 +1,22 @@
+body {
+    background-image: url("backgroundimage.jpeg");
+    background-size: cover;
+    background-size: auto;
+  }
+  
+  .container {
+    margin: auto;
+    margin-top: 3rem;
+  }
+  
+  .header {
+    text-align: center;
+    color: white;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
